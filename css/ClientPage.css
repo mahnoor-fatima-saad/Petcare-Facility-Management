@@ -1,0 +1,46 @@
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body{
+    top:-60%;
+    padding: 0;
+    width: 100%;
+    height: 10vh;
+    background: url(../pics/Pupbg.jpg);
+    background-size: cover;
+}
+.nav{
+    text-align: center;
+}
+.topnav{
+    width: border-box;
+    height: 400px;
+}
+ul{
+    margin: 70px;
+    width: 400px;
+    border-radius: 10px;
+    list-style: none;
+    background:rgba(0,0,0,0);
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 24px;
+    transition: 1s;
+    padding: 15px 50px;
+}
+li{
+    margin-top: 50px;
+    display: list-item;
+}
+li a:hover{
+    transition:1s ;
+    background: black;
+    color:ivory;
+}

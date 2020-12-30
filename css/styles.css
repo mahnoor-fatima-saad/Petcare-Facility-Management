@@ -1,0 +1,106 @@
+body {
+    margin-top: 0px;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(../pics/MainBG.jpg);
+    background-size: cover;
+}
+a{
+    text-decoration: inherit;
+}
+.links{
+    align: center;
+    position: fixed;
+    display: inline;
+    margin-top: 20%;
+    margin-left: 12%;
+}
+.ClientButton{
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    background-color: transparent;
+    border:solid 2px darkslategray;
+    border-radius: 10px;
+    transition-duration: 400ms;
+    padding: 0px 70px;
+
+}
+.ClientButton:hover{
+    background: darkslategray;
+    color: white;
+}
+.EmployeeButton:hover{
+    background: darkslategray;
+    color: white;
+}
+.ManagerButton:hover{
+    background: darkslategray;
+    color: white;
+}
+.EmployeeButton{
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    background-color: transparent;
+    border:solid 2px darkslategray;
+    border-radius: 10px;
+    transition-duration: 400ms;
+    padding: 0px 70px;
+
+}
+
+.ManagerButton{
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    background-color: transparent;
+    border:solid 2px darkslategray;
+    border-radius: 10px;
+    transition-duration: 400ms;
+    padding: 0px 70px;
+
+}
+
+.Welcome h1{
+    position: fixed;
+    margin-left: 70rem;
+    margin-top: 20px;
+    font-weight: 100;
+    font-size: 80px;
+    color: ivory;
+}
+.Welcome p1{
+    position: fixed;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 41rem;
+    color: ivory;
+}
+.Welcome p2{
+    position: fixed;
+    font-size: 40px;
+    margin-left: 72rem;
+    margin-top: 160px;
+    color: ivory;
+}
+
+.inner {
+    overflow: hidden;
+}
+
+.inner img{
+    transition: all 1.5s ease;
+}
+
+.inner h1{
+    transition: all 1.5s ease;
+}
+
+.inner:hover img{
+    transform: scale(1.5);
+}
+
+.inner:hover h1{
+    transform: scale(1.5);
+}
