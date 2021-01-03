@@ -1,0 +1,68 @@
+INSERT INTO department VALUES ('Grooming', 'F7 Jinnah Avenue, ISB' '051-6729912');
+INSERT INTO department VALUES ('Exercise', 'F11 Markaz, ISB' '051-6774139');
+INSERT INTO department VALUES ('Hotel', 'F7 Jinnah Avenue, ISB' '051-6839912');
+INSERT INTO department VALUES ('Day Camp', 'G10 Sawan Road, ISB' '051-6839912');
+INSERT INTO department VALUES ('Veterinary', 'E7 Street 10, ISB' '051-6839913');
+
+========================================================================================
+
+INSERT INTO mydb.`status type` (Type) VALUES ('Appetite'); 
+INSERT INTO mydb.`status type` (Type) VALUES ('Emotion'); 
+INSERT INTO mydb.`status type` (Type) VALUES ('General'); 
+INSERT INTO mydb.`status type` (Type) VALUES ('Physical'); 
+INSERT INTO mydb.`status type` (Type) VALUES ('Sleep'); 
+INSERT INTO mydb.`status type` (Type) VALUES ('Sociability'); 
+
+==========================================================================================
+
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES ('Cutting', '1500', (SELECT `Department ID` FROM mydb.department where Name = 'Grooming'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (1,'Trimming', '1200', (SELECT `Department ID` FROM mydb.department where Name = 'Grooming'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (2,'Wash', '3000', (SELECT `Department ID` FROM mydb.department where Name = 'Grooming'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (3,'Lice/Tick Treatment', '5000', (SELECT `Department ID` FROM mydb.department where Name = 'Grooming'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (4,'Nail Trim', '1000', (SELECT `Department ID` FROM mydb.department where Name = 'Grooming'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (6,'Teeth Cleaning', '1000', (SELECT `Department ID` FROM mydb.department where Name = 'Grooming'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (5,'Combing', '600', (SELECT `Department ID` FROM mydb.department where Name = 'Grooming'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (7,'Styling', '1000', (SELECT `Department ID` FROM mydb.department where Name = 'Grooming'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (8,'Complete Package', '8000', (SELECT `Department ID` FROM mydb.department where Name = 'Grooming'));
+
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (9,'Dog Walking', '1000', (SELECT `Department ID` FROM mydb.department where Name = 'Exercise'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (10,'Weight Loss', '2000', (SELECT `Department ID` FROM mydb.department where Name = 'Exercise'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (11,'Physical Therapy', '4000', (SELECT `Department ID` FROM mydb.department where Name = 'Exercise'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (12,'Fetch', '500', (SELECT `Department ID` FROM mydb.department where Name = 'Exercise'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (13,'Hamster Rolling', '700', (SELECT `Department ID` FROM mydb.department where Name = 'Exercise'));
+
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (14,'Per Hour Stay', '300', (SELECT `Department ID` FROM mydb.department where Name = 'Hotel'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (15,'Per 12 Hour Stay', '6000', (SELECT `Department ID` FROM mydb.department where Name = 'Hotel'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (16,'Per Day', '10000', (SELECT `Department ID` FROM mydb.department where Name = 'Hotel'));
+
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (17,'Full Day Play', '5000', (SELECT `Department ID` FROM mydb.department where Name = 'Day Camp'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (18,'Half Day Play', '8000', (SELECT `Department ID` FROM mydb.department where Name = 'Day Camp'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (19,'Walk Training Per Day', '3500', (SELECT `Department ID` FROM mydb.department where Name = 'Day Camp'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (20,'Anxiety Training', '6000', (SELECT `Department ID` FROM mydb.department where Name = 'Day Camp'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (21,'Sociability Training', '4000', (SELECT `Department ID` FROM mydb.department where Name = 'Day Camp'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (22,'Potty Training', '5500', (SELECT `Department ID` FROM mydb.department where Name = 'Day Camp'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (23,'Puppy Training', '4400', (SELECT `Department ID` FROM mydb.department where Name = 'Day Camp'));
+
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (24,'General Check Up', '4000', (SELECT `Department ID` FROM mydb.department where Name = 'Veterinary'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (25,'Physical Exam', '3000', (SELECT `Department ID` FROM mydb.department where Name = 'Veterinary'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (26,'Amputation Surgery', '21000', (SELECT `Department ID` FROM mydb.department where Name = 'Veterinary'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (27,'Cancer Treatment', '43000', (SELECT `Department ID` FROM mydb.department where Name = 'Veterinary'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (28,'Euthanisation','15500', (SELECT `Department ID` FROM mydb.department where Name = 'Veterinary'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (29,'Bowel Treatment', '5000', (SELECT `Department ID` FROM mydb.department where Name = 'Veterinary'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (30,'GA Surgery Per Hour', '2500', (SELECT `Department ID` FROM mydb.department where Name = 'Veterinary'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (31,'Admission Per Night', '7000', (SELECT `Department ID` FROM mydb.department where Name = 'Veterinary'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (32,'Blood Work', '1000', (SELECT `Department ID` FROM mydb.department where Name = 'Veterinary'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (33,'Urine Testing', '1500', (SELECT `Department ID` FROM mydb.department where Name = 'Veterinary'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (34,'XRay', '1700', (SELECT `Department ID` FROM mydb.department where Name = 'Veterinary'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (35,'CT Scan', '7000', (SELECT `Department ID` FROM mydb.department where Name = 'Veterinary'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (36,'Antibiotic Treatment', '4000', (SELECT `Department ID` FROM mydb.department where Name = 'Veterinary'));
+INSERT INTO mydb.`service` (`Service ID`,`Service Name`, `Cost Per Unit`, `Department ID`) VALUES (37,'IV Treatment', '45000', (SELECT `Department ID` FROM mydb.department where Name = 'Veterinary'));
+
+=======================================================================================
+
+INSERT INTO mydb.user (CNIC, `First Name`, `Middle Name`, `Last Name`, Address, `Phone Number`, Email, Password) 
+VALUES ('42401-9236114-4','Mahnoor','Fatima','Saad','B35, Sector E9 ISB','03235544724','mfc2496@gmail.com', '1234abc'); 
+
+
+
+

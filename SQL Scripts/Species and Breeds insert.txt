@@ -1,0 +1,256 @@
+INSERT INTO Species (Name) VALUES ('Dog');
+INSERT INTO Species (Name) VALUES ('Cat');
+INSERT INTO Species (Name) VALUES ('Goat');
+INSERT INTO Species (Name) VALUES ('Sheep');
+INSERT INTO Species (Name) VALUES ('Cattle');
+INSERT INTO Species (Name) VALUES ('Poultry');
+INSERT INTO Species (Name) VALUES ('Horse');
+INSERT INTO Species (Name) VALUES ('Bird');
+INSERT INTO Species (Name) VALUES ('Rabbit');
+INSERT INTO Species (Name) VALUES ('Fish');
+INSERT INTO Species (Name) VALUES ('Rodent');
+INSERT INTO Species (Name) VALUES ('Reptile');
+
+=========================================================================
+
+INSERT INTO Breed (Name,Species_Species ID) VALUES ('Afghan Hound',(SELECT ID FROM mydb.Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('Airedale Terrier',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('Akita',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('Alaskan Malamute',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('American Staffordshire Terrier',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('American water spaniel',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('Australian Cattle Dog',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('Australian Shepherd',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('Australian Terrier',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('Basenji',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('Basset Hound',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('Beagle',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('Bearded Collie',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('Bedlington Terrier',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('Bernese Mountain Dog',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('Bichon Frise',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('Black and Tan Coonhound',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('Bloodhound',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('Border Collie',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('Border Terrier',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('Borzoi',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('Boston Terrier',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('Bouvier des Flandres',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('Boxer',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('Briard',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('Brittany',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('Brussels Griffon',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('Bull Terrier',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('Bulldog',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('Bullmastiff',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('Cairn Terrier',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('Canaan Dog',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('Chesapeake Bay Retriever',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('Chihuahua',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`) VALUES ('Chinese Crested',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Chinese Shar-Pei',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Chow Chow',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Clumber Spaniel',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Cocker Spaniel',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Collie',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Curly-Coated Retriever',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Dachshund',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Dalmatian',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Doberman',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('English Cocker Spaniel',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('English Setter',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('English Springer Spaniel',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('English Toy Spaniel',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Eskimo Dog',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Finnish Spitz',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Flat-Coated Retriever',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Fox Terrier',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Foxhound',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('French Bulldog',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('German Shepherd',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('German shorthaired Pointer',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('German Wirehaired Pointer',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Golden Retriever',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Great Dane',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Greyhound',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Irish Wolfhound',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Jack Russell Terrier',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Keeshond',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Kerry Blue Terrier',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Komondor',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Kuvasz',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Labrador',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Lakeland Terrier',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Lhasa Apso',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Maltese',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Manchester Terrier',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Mastiff',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Norwich Terrier',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Otterhound',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Papillon',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Pekingese',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Pointer',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Pomeranian',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Poodle',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Pug',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Puli',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Rottweiler',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Saint Bernard',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Saluki',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Samoyed',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Schipperke',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Schnauzer',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Scottish Deerhound',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Scottish Terrier',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Sealyham Terrier',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'))
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Sheepdog',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Shih Tzu',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Siberian Husky',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Saffordshire Bull Terrier',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Soft-Coated Wheaten Terrier',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Sussex Spaniel',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Spitz',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Vizsla',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Weimaraner',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Welsh Terrier',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Whippet',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Yorkshire Terrier',(SELECT `Species ID` FROM Species WHERE Name = 'Dog'));
+
+====================================================================
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Abyssinian',(SELECT `Species ID` FROM Species WHERE Name = 'Cat'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('British Shorthair',(SELECT `Species ID` FROM Species WHERE Name = 'Cat'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Burmese',(SELECT `Species ID` FROM Species WHERE Name = 'Cat'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Cornish Rex',(SELECT `Species ID` FROM Species WHERE Name = 'Cat'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Devon Rex',(SELECT `Species ID` FROM Species WHERE Name = 'Cat'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Himalayan',(SELECT `Species ID` FROM Species WHERE Name = 'Cat'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Maine Coon',(SELECT `Species ID` FROM Species WHERE Name = 'Cat'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Manx',(SELECT `Species ID` FROM Species WHERE Name = 'Cat'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Persian',(SELECT `Species ID` FROM Species WHERE Name = 'Cat'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Russian Blue',(SELECT `Species ID` FROM Species WHERE Name = 'Cat'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Scottish Fold',(SELECT `Species ID` FROM Species WHERE Name = 'Cat'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Siamese',(SELECT `Species ID` FROM Species WHERE Name = 'Cat'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Sphynx',(SELECT `Species ID` FROM Species WHERE Name = 'Cat'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Turkish Angora',(SELECT `Species ID` FROM Species WHERE Name = 'Cat'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Turkish Van',(SELECT `Species ID` FROM Species WHERE Name = 'Cat'));
+
+=========================================================
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Angora',(SELECT `Species ID` FROM Species WHERE Name = 'Goat'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Boer',(SELECT `Species ID` FROM Species WHERE Name = 'Goat'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('LaMancha',(SELECT `Species ID` FROM Species WHERE Name = 'Goat'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Nubian',(SELECT `Species ID` FROM Species WHERE Name = 'Goat'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Oberhasli',(SELECT `Species ID` FROM Species WHERE Name = 'Goat'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Saanen',(SELECT `Species ID` FROM Species WHERE Name = 'Goat'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Toggenburg',(SELECT `Species ID` FROM Species WHERE Name = 'Goat'));
+
+==================================================================
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Cheviot',(SELECT `Species ID` FROM Species WHERE Name = 'Sheep'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Hampshire',(SELECT `Species ID` FROM Species WHERE Name = 'Sheep'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Karakul',(SELECT `Species ID` FROM Species WHERE Name = 'Sheep'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Merino',(SELECT `Species ID` FROM Species WHERE Name = 'Sheep'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Rambouillet',(SELECT `Species ID` FROM Species WHERE Name = 'Sheep'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Shropshire',(SELECT `Species ID` FROM Species WHERE Name = 'Sheep'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Southdown',(SELECT `Species ID` FROM Species WHERE Name = 'Sheep'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Suffolk',(SELECT `Species ID` FROM Species WHERE Name = 'Sheep'));
+=================================================================
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Angus',(SELECT `Species ID` FROM Species WHERE Name = 'Cattle'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Ayrshire',(SELECT `Species ID` FROM Species WHERE Name = 'Cattle'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Brahman',(SELECT `Species ID` FROM Species WHERE Name = 'Cattle'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Brown Swiss',(SELECT `Species ID` FROM Species WHERE Name = 'Cattle'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Charolais',(SELECT `Species ID` FROM Species WHERE Name = 'Cattle'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Guernsey',(SELECT `Species ID` FROM Species WHERE Name = 'Cattle'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Hereford',(SELECT `Species ID` FROM Species WHERE Name = 'Cattle'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Holstein-Friesian',(SELECT `Species ID` FROM Species WHERE Name = 'Cattle'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Jersey',(SELECT `Species ID` FROM Species WHERE Name = 'Cattle'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Murray Grey',(SELECT `Species ID` FROM Species WHERE Name = 'Cattle'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Santa Gertrudis',(SELECT `Species ID` FROM Species WHERE Name = 'Cattle'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Shorthorn',(SELECT `Species ID` FROM Species WHERE Name = 'Cattle'));
+
+===================================================================
+
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Chicken',(SELECT `Species ID` FROM Species WHERE Name = 'Poultry'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Fowl',(SELECT `Species ID` FROM Species WHERE Name = 'Poultry'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Guinea Fowl',(SELECT `Species ID` FROM Species WHERE Name = 'Poultry'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Patridge',(SELECT `Species ID` FROM Species WHERE Name = 'Poultry'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Pheasant',(SELECT `Species ID` FROM Species WHERE Name = 'Poultry'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Quail',(SELECT `Species ID` FROM Species WHERE Name = 'Poultry'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Rooster',(SELECT `Species ID` FROM Species WHERE Name = 'Poultry'));
+
+==================================================================
+
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('American Quarter Horse',(SELECT `Species ID` FROM Species WHERE Name = 'Horse'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('American Saddlebred',(SELECT `Species ID` FROM Species WHERE Name = 'Horse'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Arabian Horse',(SELECT `Species ID` FROM Species WHERE Name = 'Horse'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Barb',(SELECT `Species ID` FROM Species WHERE Name = 'Horse'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Belgian Horse',(SELECT `Species ID` FROM Species WHERE Name = 'Horse'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Cayuse',(SELECT `Species ID` FROM Species WHERE Name = 'Horse'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Cleveland Bay',(SELECT `Species ID` FROM Species WHERE Name = 'Horse'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Clydesdale',(SELECT `Species ID` FROM Species WHERE Name = 'Horse'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Criollo',(SELECT `Species ID` FROM Species WHERE Name = 'Horse'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Donkey',(SELECT `Species ID` FROM Species WHERE Name = 'Horse'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Hackney',(SELECT `Species ID` FROM Species WHERE Name = 'Horse'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Lipizzaner',(SELECT `Species ID` FROM Species WHERE Name = 'Horse'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Missouri Fox-Trotting Horse',(SELECT `Species ID` FROM Species WHERE Name = 'Horse'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Morgan',(SELECT `Species ID` FROM Species WHERE Name = 'Horse'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Percheron',(SELECT `Species ID` FROM Species WHERE Name = 'Horse'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Shire',(SELECT `Species ID` FROM Species WHERE Name = 'Horse'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Standardbred',(SELECT `Species ID` FROM Species WHERE Name = 'Horse'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Suffolk',(SELECT `Species ID` FROM Species WHERE Name = 'Horse'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Tennessee Walking Horse',(SELECT `Species ID` FROM Species WHERE Name = 'Horse'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Thoroughbred',(SELECT `Species ID` FROM Species WHERE Name = 'Horse'));
+
+==========================================================
+
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('African Grey',(SELECT `Species ID` FROM Species WHERE Name = 'Bird'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Budgerigar',(SELECT `Species ID` FROM Species WHERE Name = 'Bird'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Cockatiel',(SELECT `Species ID` FROM Species WHERE Name = 'Bird'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Cockatoo',(SELECT `Species ID` FROM Species WHERE Name = 'Bird'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Conure',(SELECT `Species ID` FROM Species WHERE Name = 'Bird'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Lorikeet',(SELECT `Species ID` FROM Species WHERE Name = 'Bird'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Lovebird',(SELECT `Species ID` FROM Species WHERE Name = 'Bird'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Macaw',(SELECT `Species ID` FROM Species WHERE Name = 'Bird'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Parakeet',(SELECT `Species ID` FROM Species WHERE Name = 'Bird'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Parrot',(SELECT `Species ID` FROM Species WHERE Name = 'Bird'));
+
+
+=====================================================
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('American Fuzzy',(SELECT `Species ID` FROM Species WHERE Name = 'Rabbit'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Beveran',(SELECT `Species ID` FROM Species WHERE Name = 'Rabbit'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Continental Giant',(SELECT `Species ID` FROM Species WHERE Name = 'Rabbit'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Dutch',(SELECT `Species ID` FROM Species WHERE Name = 'Rabbit'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('English',(SELECT `Species ID` FROM Species WHERE Name = 'Rabbit'))
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Flemish Giant',(SELECT `Species ID` FROM Species WHERE Name = 'Rabbit'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('French Lop',(SELECT `Species ID` FROM Species WHERE Name = 'Rabbit'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Holland Lop',(SELECT `Species ID` FROM Species WHERE Name = 'Rabbit'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Lionhead',(SELECT `Species ID` FROM Species WHERE Name = 'Rabbit'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Netherland Dwarf',(SELECT `Species ID` FROM Species WHERE Name = 'Rabbit'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Polish',(SELECT `Species ID` FROM Species WHERE Name = 'Rabbit'));
+
+===========================================================
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Angel Fish',(SELECT `Species ID` FROM Species WHERE Name = 'Fish'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Bleeding Heart',(SELECT `Species ID` FROM Species WHERE Name = 'Fish'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Catfish',(SELECT `Species ID` FROM Species WHERE Name = 'Fish'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Clown Fish',(SELECT `Species ID` FROM Species WHERE Name = 'Fish'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Corydoras',(SELECT `Species ID` FROM Species WHERE Name = 'Fish'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Glowlight Tetra',(SELECT `Species ID` FROM Species WHERE Name = 'Fish'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Goldfish',(SELECT `Species ID` FROM Species WHERE Name = 'Fish'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Neon Tetra',(SELECT `Species ID` FROM Species WHERE Name = 'Fish'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Pencil Fish',(SELECT `Species ID` FROM Species WHERE Name = 'Fish'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Royal Tetra',(SELECT `Species ID` FROM Species WHERE Name = 'Fish'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Silver Coin',(SELECT `Species ID` FROM Species WHERE Name = 'Fish'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Zebra Fish',(SELECT `Species ID` FROM Species WHERE Name = 'Fish'));
+
+===========================================================
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Chinchilla',(SELECT `Species ID` FROM Species WHERE Name = 'Rodent'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Gerbal',(SELECT `Species ID` FROM Species WHERE Name = 'Rodent'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Guinea Pig',(SELECT `Species ID` FROM Species WHERE Name = 'Rodent'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Hamster',(SELECT `Species ID` FROM Species WHERE Name = 'Rodent'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Mouse',(SELECT `Species ID` FROM Species WHERE Name = 'Rodent'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Rat',(SELECT `Species ID` FROM Species WHERE Name = 'Rodent'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Squirrel',(SELECT `Species ID` FROM Species WHERE Name = 'Rodent'));
+
+===========================================================
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Bearded Dargon',(SELECT `Species ID` FROM Species WHERE Name = 'Reptile'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Chameleon',(SELECT `Species ID` FROM Species WHERE Name = 'Reptile'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Gecko',(SELECT `Species ID` FROM Species WHERE Name = 'Reptile'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Iguana',(SELECT `Species ID` FROM Species WHERE Name = 'Reptile'));
+INSERT INTO Breed (Name,`Species_Species ID`)VALUES ('Monitor',(SELECT `Species ID` FROM Species WHERE Name = 'Reptile'));
