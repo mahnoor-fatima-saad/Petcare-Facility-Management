@@ -80,7 +80,8 @@ CREATE TABLE IF NOT EXISTS `mydb`.`User` (
   `Name` VARCHAR(45),
   PRIMARY KEY (`CNIC`),
   UNIQUE INDEX `Password_UNIQUE` (`Password` ASC) ,
-  UNIQUE INDEX `Email_UNIQUE` (`Email` ASC)`enrolled case`employee)
+  UNIQUE INDEX `Email_UNIQUE` (`Email` ASC)
+  )
 ENGINE = InnoDB;
 
 
